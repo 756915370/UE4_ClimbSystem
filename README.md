@@ -5,7 +5,6 @@
 - **悬挂时可以爬上墙壁**（Space键）  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/9bfd64ea2b4d4fc88b153d62a2038946.gif#pic_center)
 - **悬挂时可以左右移动**（A/D键）  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2b262514bfae4dc3be48d1ffaae23b3d.gif#pic_center)
 - **悬挂时在墙壁边缘可以飞跃到相邻的墙壁**（在有墙壁的情况下，A/D键+Space键）  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/d36a452ff0e34ab487fe8df76066c69f.gif#pic_center)
 - **悬挂时在墙壁边缘时可以左右拐弯**（A/D键）  
