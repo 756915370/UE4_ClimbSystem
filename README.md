@@ -78,7 +78,7 @@
 		- 复杂的动画状态切换
 	- Montage的优点：
 		- 复杂的动画组合
-		- 使用方便，可以接受回调，不需要添加动画事件
+		- 使用方便，不需要添加动画事件就可以接受回调
 	- 如果有需求是只能用StateMachine或者只能用Montage才能实现，比如**复杂的混合动画**（StateMachine），**一次播两个动画序列**（Montage），或者**不定次数的Loop动画**，比如这个工程里的保持悬挂状态（StateMachine）。这个时候没有犹豫的必要。
 	- 如果两种方案都能实现需求，如何选择？**看这个动画和其他动画的耦合性，耦合性小就用Montage实现**。还是以这个工程为例，比如说TurnBack状态（悬挂时回头看），MoveLeft和MoveRight以及Hanging都可能进入TurnBack状态，同时TurnBack状态可以退出Hanging以及重新进入TurnBack，它和其他动画的耦合性很强，必须做成StateMachine。  
 	![在这里插入图片描述](https://img-blog.csdnimg.cn/fbcca96f8b08499eaa906580dfd0b7be.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5rC05puc5pel6bih,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)  
