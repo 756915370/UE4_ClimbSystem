@@ -1,5 +1,9 @@
 # UE4_ClimbSystem
-这个工程展示的功能和[UE4 Climb System - Tutorial](https://www.youtube.com/watch?v=BKiSTM-G9pQ)这个系列教程讲的基本完全相同。
+这个工程展示的功能和[UE4 Climb System - Tutorial](https://www.youtube.com/watch?v=BKiSTM-G9pQ)这个系列教程讲的基本完全相同。 
+**系列文章目录：**  
+- [攀爬系统系列教程（一）——抓取边缘、爬上墙壁、左右移动](https://zhuanlan.zhihu.com/p/432999722)
+- [攀爬系统系列教程（二）——相邻墙壁飞跃、墙角拐弯、回头反向跳](https://zhuanlan.zhihu.com/p/433000837)
+ 
 它包含以下功能：
 - **在空中时自动抓取墙壁边缘并悬挂**
 - **悬挂时可以爬上墙壁**（Space键）  
